@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Cool Image Trail Wordpress
- * Description: Adds shortcode [image-trail] to display animated image trail with image upload and preview in admin.
+ * Description: Adds shortcode [image-trail] to display animated image trail with image upload and preview in frontend.
  * Version: 1.0
  * Author: WP_DESIGN LAB
  */
@@ -108,7 +108,7 @@ class ImageTrailPlugin {
             </table>
             <?php submit_button(); ?>
         </form>
-        Adds shortcode [image-trail] to display animated image trail with image upload and preview in admin.
+        Adds shortcode [image-trail] to display animated image trail with image upload and preview in frontend.
     </div>
     <?php
 }
